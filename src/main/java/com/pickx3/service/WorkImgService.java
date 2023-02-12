@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 import java.sql.Timestamp;
@@ -19,7 +20,10 @@ import java.util.List;
 @Service
 public class WorkImgService {
 
-    private String path = "C:\\dev\\teamProject\\pppick-backend\\src\\main\\resources\\img";
+
+//    private String path = "C:\\dev\\teamProject\\pppick-backend\\src\\main\\resources\\img";
+    private String path = new File("").getAbsolutePath()+File.separator+"images"+File.separator+"work";
+    Path directoryPath = Paths.get(path);
     private Path uploadPath;
 
     @Autowired
@@ -29,6 +33,7 @@ public class WorkImgService {
      * 상품 이미지 업로드
      */
     public void uploadWorkImg(List<MultipartFile> files, Work work) {
+
 
         uploadPath = Paths.get(path).toAbsolutePath().normalize();
 
@@ -49,6 +54,13 @@ public class WorkImgService {
                     //에러 발생
                     throw new IllegalStateException("형식이 잘못되었습니다");
                 }
+
+                if (!Files.isDirectory(directoryPath)) {
+                    System.out.println("디렉토리가 존재하지않습니다");
+                    Files.createDirectory(directoryPath);
+                }
+
+
 
                 // target location에서 파일 복사
                 Path targetLocation = this.uploadPath.resolve(fileName);
