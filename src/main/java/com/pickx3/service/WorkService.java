@@ -2,10 +2,7 @@ package com.pickx3.service;
 
 import com.pickx3.domain.entity.user_package.User;
 import com.pickx3.domain.entity.work_package.Work;
-import com.pickx3.domain.entity.work_package.dto.work.WorkDetailDTO;
-import com.pickx3.domain.entity.work_package.dto.work.WorkForm;
-import com.pickx3.domain.entity.work_package.dto.work.WorkImgForm;
-import com.pickx3.domain.entity.work_package.dto.work.WorkUpdateForm;
+import com.pickx3.domain.entity.work_package.dto.work.*;
 import com.pickx3.domain.repository.UserRepository;
 import com.pickx3.domain.repository.WorkImgRepository;
 import com.pickx3.domain.repository.WorkRepository;
@@ -14,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -48,8 +46,23 @@ public class WorkService {
     /*
      * 회원별 상품 목록 조회
      * */
-    public List<Work> getWorks(Long workerNum){
-        return workRepository.findByUserInfo_id(workerNum);
+    public List<WorkResponseDTO> getWorks(Long workerNum){
+        List<WorkResponseDTO> dtos = new ArrayList<>();
+
+        List<Work> works = workRepository.findByUserInfo_id(workerNum);
+        for(Work work : works){
+            WorkResponseDTO dto = new WorkResponseDTO();
+            dto.setWorkName(work.getWorkName());
+            dto.setWorkDesc(work.getWorkDesc());
+            dto.setWorkPrice(work.getWorkPrice());
+
+            List<WorkImgForm> workImgs = workImgRepository.findByWork_workNum(work.getWorkNum());
+            dto.setFiles(workImgs);
+
+            dtos.add(dto);
+
+        }
+        return dtos;
     }
     
     /*
