@@ -22,7 +22,7 @@ Front-End|박정도|https://github.com/jeongdopark
 
 ## 배포 URL
 - http://www.pppick.store
-- 관리자 페이지 - http://www.pppick.store/admin/login
+- 관리자 페이지 - https://www.pppick.store/admin/login
   - 관리자 계정 - ID : admin / Password : admin 
 
 ## 📎 협업 문서
@@ -40,7 +40,7 @@ Front-End|박정도|https://github.com/jeongdopark
 
 > - ETC : <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white">
 
-Swagger 문서 참고 링크 : http://api.pppick.store/swagger-ui/index.html#
+Swagger 문서 참고 링크 : https://api.pppick.store/swagger-ui/index.html
 
 ### ERD 설계
 <img width="80%" height="80%" src="https://user-images.githubusercontent.com/47100801/222034401-12ae32c8-5a9c-40e3-8eb7-e09eab6a1fdd.png">
