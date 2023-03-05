@@ -21,7 +21,7 @@ Front-End|김호정|https://github.com/HJKim423
 Front-End|박정도|https://github.com/jeongdopark
 
 ## 배포 URL
-- http://www.pppick.store
+- https://www.pppick.store
 - 관리자 페이지 - https://www.pppick.store/admin/login
   - 관리자 계정 - ID : admin / Password : admin 
 
