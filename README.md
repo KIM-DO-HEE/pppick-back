@@ -8,15 +8,15 @@
 - 프로젝트 GitHub : https://github.com/pickpickpick-project
 
 ### 개발 인원 및 기간
-- 개발기간 : 2023/01/14 ~ 2023/2/28
-- 개발 인원 : 프론트엔드 2명, 백엔드 3명
+- 개발 기간 : 2023/01/14 ~ 2023/2/28
+- 개발 인원 : 백엔드 3명, 프론트엔드 2명
 
 ## 🙌 팀원소개
 역할|이름|GitHub 주소|
 ---|---|---|
-Back-End|김도희|https://github.com/KIM-DO-HEE
-Back-End|김소윤|https://github.com/iiolo
-Back-End|신승현|https://github.com/SSHTED
+Back-End |김도희|https://github.com/KIM-DO-HEE
+Back-End |김소윤|https://github.com/iiolo
+Back-End |신승현|https://github.com/SSHTED
 Front-End|김호정|https://github.com/HJKim423
 Front-End|박정도|https://github.com/jeongdopark
 
