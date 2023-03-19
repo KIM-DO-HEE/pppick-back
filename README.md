@@ -20,12 +20,12 @@ Back-End |신승현|https://github.com/SSHTED
 Front-End|김호정|https://github.com/HJKim423
 Front-End|박정도|https://github.com/jeongdopark
 
-## 배포 URL
+## 🔗 배포 URL
 - https://www.pppick.store
 - 관리자 페이지 - https://www.pppick.store/admin/login
   - 관리자 계정 - ID : admin / Password : admin 
 
-## 📎 협업 문서
+## 📃 협업 문서
 - 요구사항 명세서 : https://docs.google.com/spreadsheets/d/1rjobxqth3hT1llzdAlExbxPFiDr5VKQ4-HNzSaPFTOs/edit#gid=0
 - 테이블 명세서 : https://docs.google.com/spreadsheets/d/1g7OMKohGoOJHb5zpbEZkxWEtyvjFE_WmQDpd1fIFgIY/edit#gid=0
 - 인스턴스 명세서 : https://docs.google.com/spreadsheets/d/1RTW6A1XULyyLET6QYOyFSAiDhvXmzM52XFMqolsMMrw/edit#gid=0
@@ -36,7 +36,9 @@ Front-End|박정도|https://github.com/jeongdopark
 
 > - Front-End : <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">&nbsp;<img src="https://img.shields.io/badge/reactquery-FF4154?style=for-the-badge&logo=reactquery&logoColor=black">&nbsp;<img src="https://img.shields.io/badge/typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=black">&nbsp;<img src="https://img.shields.io/badge/styledcomponent-DB7093?style=for-the-badge&logo=styledcomponent&logoColor=black">
 
-> - Server : <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">&nbsp; <img src="https://img.shields.io/badge/AWS RDS/EC2-232F3E?style=for-the-badge&logo=Amazon&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/AWS S3-색상?style=for-the-badge&logo=Amazon S3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+> - AWS : <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">&nbsp; <img src="https://img.shields.io/badge/AWS RDS/EC2-232F3E?style=for-the-badge&logo=Amazon&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/AWS S3-색상?style=for-the-badge&logo=Amazon S3&logoColor=white">
+
+<!-- &nbsp;<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> -->
 
 > - ETC : <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white">
 
